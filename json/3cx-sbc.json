@@ -1,0 +1,32 @@
+{
+  "name": "3CX SBC",
+  "slug": "3cx-sbc",
+  "categories": [0],
+  "date_created": "2025-01-14",
+  "type": "ct",
+  "updateable": true,
+  "privileged": false,
+  "interface_port": null,
+  "documentation": "https://www.3cx.com/docs/session-border-controller/",
+  "website": "https://www.3cx.com/",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/e/e5/3CX_Logo.png",
+  "description": "The 3CX Session Border Controller (SBC) allows remote extensions to connect securely to the PBX while simplifying firewall configuration.",
+  "install_methods": [
+    {
+      "type": "default",
+      "script": "ct/3cx-sbc.sh",
+      "resources": {
+        "cpu": 1,
+        "ram": 512,
+        "hdd": 10,
+        "os": "Debian",
+        "version": "11"
+      }
+    }
+  ],
+  "default_credentials": {
+    "username": null,
+    "password": null
+  },
+  "notes": []
+}
